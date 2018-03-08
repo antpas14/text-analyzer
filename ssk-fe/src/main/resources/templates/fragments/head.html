@@ -1,0 +1,15 @@
+<div class="navbar navbar-inverse" xmlns:th="http://www.w3.org/1999/xhtml">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Text Analyzer</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li th:classappend="${active} == home ? active"><a href="/">Home</a></li>
+            </ul>
+            <!--<ul class="nav navbar-nav">
+                <li th:classappend="${active} == about ? active"><a href="/about">About</a></li>
+            </ul>-->
+        </div>
+    </div>
+</div>
